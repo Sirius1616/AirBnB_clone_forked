@@ -1,2 +1,7 @@
- Mysql conncerion strings
+-- DATABASE SCHEMA FOR THE PROJECT 
+
+CREATE DATABASE IF NOT EXIST hbnb_dev_db;
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' WITH GRANT OPTION;
+
 
